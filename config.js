@@ -2,7 +2,7 @@
 window.Config = {
 
   // 站点名
-  SiteName: '站点状态监控---极客青年',
+  SiteName: 'Uptime Status',
 
   // 站点链接
   SiteUrl: '/',
@@ -10,30 +10,29 @@ window.Config = {
   // UptimeRobot Api Keys
   // 支持 Monitor-Specific 和 Read-Only 两种 Api Key
   ApiKeys: [
-    'ur894242-90d1eb90acc82624bcaed27a'
+    'm793764591-ca10239fd6501c564ff5f05c',
+    'm793140970-e235b991d5b43db2ba9162d6',
+    'm792290745-cb3309a2db32fb9139dedd70',
+    'm792290747-68ac36be0652ac66bbe3d181',
+    'm792290601-c96b073ceeacf17f30b01e6d',
+    'm792290610-4fe3d8f1de80e172c3a01a26',
+    'm792290608-d54ad29049b48aebb097388a',
+    'm793141015-ebe14e069bd696b4773d9979',
   ],
 
   // 是否显示监测站点的链接
   ShowLink: false,
 
   // 日志天数
-  // 虽然免费版说仅保存60天日志，但测试好像API可以获取90天的
+  // 虽然免费版说仅保存60天日志，但测试好像API可以获取超过90天的
   // 不过时间不要设置太长，容易卡，接口请求也容易失败
-  CountDays: 60,
+  CountDays: 90,
 
   // 导航栏菜单
   Navi: [
     {
-      text: '项目主页',
-      url: 'https://github.com/geekyouth/uptime-status'
-    },
-    {
-      text: 'GitHub',
-      url: 'https://github.com/geekyouth/'
-    },
-    {
-      text: '博客',
-      url: 'https://java666.cn'
+      text: 'Server Status',
+      url: 'https://z.f8.gs/'
     }
   ]
 };
