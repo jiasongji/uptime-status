@@ -1,5 +1,5 @@
 // 配置
-window.Config = {
+window。Config = {
 
   // 站点名
   SiteName: 'Uptime Status',
@@ -32,7 +32,7 @@ window.Config = {
   Navi: [
     {
       text: 'Server Status',
-      url: 'https://z.f8.gs/'
+      url: 'https://rcrc.eu.org/'
     }
   ]
 };
