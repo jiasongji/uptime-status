@@ -32,7 +32,7 @@ window。Config = {
   Navi: [
     {
       text: 'Server Status',
-      url: 'https://rcrc.eu.org/'
+      url: 'https://rcrc.eu.org'
     }
   ]
 };
